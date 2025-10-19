@@ -1,13 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 10;
-    padding: 10;
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(green, gold );
+    min-height: 100vh;  
 }
 
-.info {
+.body h1 {
+    text-align: center;
+    color: #333;
     margin: 20px;
     padding: 20px;
-  ;
+}
+
+.feedbackform {
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.personalinfofieldset {
+    margin: 40px;
+    display:flex;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .personalinfo {
@@ -30,4 +47,37 @@ body {
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 7px;
+}
+
+.feedbacksection {
+    margin: 40px;
+    display:flex;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.feedbackinput {
+    width: 1000px;
+    height: 200px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    resize: vertical;
+}
+
+.submitsection {
+    margin: 20px;
+    padding: 20px;
+}
+
+.submitbutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

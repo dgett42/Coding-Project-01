@@ -8,9 +8,11 @@
     <script src="cp_1.js" defer></script>
 </head>
 <body class="body">
-    <section class="info">
-        <h1>We Value Your Feedback</h1>
-        
+    
+    <h1>We Value Your Feedback</h1>
+    
+    <form id="feedbackform" class="feedbackform">
+        <fieldset class="personalinfofieldset">  
         <legend name="personalinfo">Personal Information</legend>
         
         <div class="name">
@@ -22,9 +24,19 @@
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" class="emailinput" required>
         </div>
-    </section>
+        </fieldset>
+
+        <div class="feedbacksection">
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" name="feedback" class="feedbackinput" rows="5" required></textarea>
+        </div>
+
+        <div class="submitsection">
+        <button type="submit" class="submitbutton">Submit Feedback</button>
+        </div>
+    </form>
     
-    <section class="subhmitfeedback"></section>
+    
 
 </body>
 </html>
