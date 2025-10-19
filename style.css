@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+}
+
+.info {
+    margin: 20px;
+    padding: 20px;
+  ;
+}
+
+.personalinfo {
+    margin-bottom: 15px;
+}
+
+.name {
+    
+    margin: 20px;
+}
+
+.email {
+    color: #555;
+    margin: 20px;
+}
+
+.nameinput, .emailinput {
+    width: 1000px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
